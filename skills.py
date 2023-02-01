@@ -11,10 +11,8 @@ from googlesearch import search  # поиск в Google
 import traceback
 import pyjokes
 import ctypes
-import requests
 import time
 import os
-from clint.textui import progress
 
 mixer.init()
 translator_en = Translator(from_lang="ru", to_lang="en")
@@ -49,25 +47,12 @@ def timer():
         timing = time.time()
         voice.va_speak("время прошло")
 
-def update_assistant():
-    voice.va_speak("После загрузки файла замените эту версию новой")
-    url = '# url after uploading file'
-    r = requests.get(url, stream=True)
-
-    with open("Voice.py", "wb") as Pypdf:
-        total_length = int(r.headers.get('content-length'))
-
-        for ch in progress.bar(r.iter_content(chunk_size=2391975),
-                           expected_size=(total_length / 1024) + 1):
-            if ch:
-                Pypdf.write(ch)
-
 def note():
     try:
         an = app.commands()
         ca = 1
         f = open("note.txt", "a")
-        voice.va_speak("Я запомнил, что бы прочитать эту заметку скажите: напомни")
+        voice.va_speak("Я запомнил, что бы прочитать эту заметку скажите: прочитай заметку")
         voice.engine.runAndWait()
         an45 = an[len("запомни"):] + an
         f.write(an45)

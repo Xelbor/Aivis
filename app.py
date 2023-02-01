@@ -123,43 +123,43 @@ def find_rec():
             else:
                 print(rec.PartialResult())
 
-def weather():
-    city_name = s_city
+#def weather():
+    #city_name = s_city
 
-    try:
+    #try:
         # использование API-ключа, помещённого в .env-файл по примеру WEATHER_API_KEY = "01234abcd....."
-        weather_api_key = os.getenv("e6ef80c94a54fc9d869f7f9796f984f2")
-        open_weather_map = OWM(weather_api_key)
+       #weather_api_key = os.getenv("e6ef80c94a54fc9d869f7f9796f984f2")
+       #open_weather_map = OWM(weather_api_key)
 
         # запрос данных о текущем состоянии погоды
-        weather_manager = open_weather_map.weather_manager()
-        observation = weather_manager.weather_at_place(city_name)
-        weather = observation.weather
+       #weather_manager = open_weather_map.weather_manager()
+       #observation = weather_manager.weather_at_place(city_name)
+       #weather = observation.weather
 
         # поскольку все ошибки предсказать сложно, то будет произведен отлов с последующим выводом без остановки программы
-    except:
-        voice.va_speak("Ошибка")
-        traceback.print_exc()
-        return
+    #except:
+        #voice.va_speak("Ошибка")
+        #traceback.print_exc()
+        #return
 
         # разбивание данных на части для удобства работы с ними
-    status = weather.detailed_status
-    temperature = weather.temperature('celsius')["temp"]
-    wind_speed = weather.wind()["speed"]
-    pressure = int(weather.pressure["press"] / 1.333)  # переведено из гПА в мм рт.ст.
+    #status = weather.detailed_status
+    #temperature = weather.temperature('celsius')["temp"]
+    #wind_speed = weather.wind()["speed"]
+    #pressure = int(weather.pressure["press"] / 1.333)  # переведено из гПА в мм рт.ст.
 
     # вывод логов
-    print("Weather in " + city_name +
-                  ":\n * Status: " + status +
-                  "\n * Wind speed (m/sec): " + str(wind_speed) +
-                  "\n * Temperature (Celsius): " + str(temperature) +
-                  "\n * Pressure (mm Hg): " + str(pressure), "yellow")
+    #print("Weather in " + city_name +
+                 #":\n * Status: " + status +
+                 #"\n * Wind speed (m/sec): " + str(wind_speed) +
+                 #"\n * Temperature (Celsius): " + str(temperature) +
+                 #"\n * Pressure (mm Hg): " + str(pressure), "yellow")
 
     # озвучивание текущего состояния погоды ассистентом (здесь для мультиязычности требуется дополнительная работа)
-    voice.va_speak(("It is {0} in {1}").format(status, city_name))
-    voice.va_speak(("The temperature is {} degrees Celsius").format(str(temperature)))
-    voice.va_speak(("The wind speed is {} meters per second").format(str(wind_speed)))
-    voice.va_speak(("The pressure is {} mm Hg").format(str(pressure)))
+    #voice.va_speak(("It is {0} in {1}").format(status, city_name))
+    #voice.va_speak(("The temperature is {} degrees Celsius").format(str(temperature)))
+    #voice.va_speak(("The wind speed is {} meters per second").format(str(wind_speed)))
+    #voice.va_speak(("The pressure is {} mm Hg").format(str(pressure)))
 
 
 #def music():
