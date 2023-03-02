@@ -1,15 +1,38 @@
-import voice
 import requests
-from clint.textui import progress
 
-def update_assistant():
-    url = 'https://github.com/Xelbor/Aivis'
-    r = requests.get(url, stream=True)
+def update_assistent():
+    file_url = "https://raw.githubusercontent.com/Xelbor/Aivis/main/update.py"
+    r = requests.get(file_url)
 
-    with open("voice.py" "app.py" "skills.py" "words.py" "update.py", "wb") as Pypdf:
-        total_length = int(r.headers.get('content-length'))
+    with open("update.py", "wb") as code:
+        code.write(r.content)
 
-        for ch in progress.bar(r.iter_content(chunk_size=2391975),
-                           expected_size=(total_length / 1024) + 1):
-            if ch:
-                Pypdf.write(ch)
+    file_url = "https://raw.githubusercontent.com/Xelbor/Aivis/main/voice.py"
+    r = requests.get(file_url)
+
+    with open("voice.py", "wb") as code:
+        code.write(r.content)
+
+    file_url = "https://raw.githubusercontent.com/Xelbor/Aivis/main/app.py"
+    r = requests.get(file_url)
+
+    with open("app.py", "wb") as code:
+        code.write(r.content)
+
+    file_url = "https://raw.githubusercontent.com/Xelbor/Aivis/main/words.py"
+    r = requests.get(file_url)
+
+    with open("words.py", "wb") as code:
+        code.write(r.content)
+
+    file_url = "https://raw.githubusercontent.com/Xelbor/Aivis/main/skills.py"
+    r = requests.get(file_url)
+
+    with open("skills.py", "wb") as code:
+        code.write(r.content)
+
+    file_url = "https://raw.githubusercontent.com/Xelbor/Aivis/main/AivisCore.py"
+    r = requests.get(file_url)
+
+    with open("AivisCore.py", "wb") as code:
+        code.write(r.content)
