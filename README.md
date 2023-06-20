@@ -54,7 +54,7 @@ aivis.help@gmail.ru
 
 - Это не полный список, но это главные изменения в программе
 
-Вы можете скачать уже скомпилированную программу. Для этого скачайте установщик на этой же странице.
+Вы можете скачать уже скомпилированную программу. Для этого перейдите во вкладку Releases и скачайте установщик Aivis Setup на этой же странице.
 
 Благодарю вас за скачивание!
 
@@ -116,6 +116,6 @@ Here is the complete list of additions:
 
 - This is not a complete list, but these are the main changes in the program
 
-You can download the already compiled program. To do this, download the installer on the same page.
+You can download the already compiled program. To do this, go to the Releases tab and download the Aivis Setup installer on the same page.
 
 Thank you for downloading!
