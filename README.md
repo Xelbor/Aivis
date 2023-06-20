@@ -1,4 +1,5 @@
 RU  Обновление Aivis V2.0 вышло!   RU
+
 Это были долгие 5 месяцев разработки второй версии программы. Было внесено множество изменений. Полный список изменений приведен ниже. Множество функций было переработано, исправлено и добавлено. Следующая версия, Aivis V2.1, будет содержать исправления ошибок и багов, больше случайных ответов, более подробные сообщения об ошибках, а также изменения для разработчиков, такие как добавление большего количества комментариев в коде и улучшение файла interface.py для большего удобства.
 
 Планы на V3.0:
@@ -55,6 +56,7 @@ aivis.help@gmail.ru
 Благодарю вас за скачивание!
 
 EN Aivis V2.0 update is out! EN
+
 It was a long 5 months of developing the second version of the program. Many changes have been made. The full list of changes is below. Many features have been redesigned, fixed and added. The next version, Aivis V2.1, will contain bug and bug fixes, more random responses, more detailed error messages, as well as changes for developers, such as adding more comments in the code and improving the interface.py file for better usability.
 
 Plans for V3.0:
