@@ -46,6 +46,7 @@ aivis.help@gmail.ru
 - Добавлена функция случайных слов.
 - Добавлена функция оповещения об обновлениях.
 - Добавлено множество новых фраз/команд.
+- Добавлен файл numbers_converter для преобразования числительных в числа
 - В интерфейсе теперь можно изменить имя ассистента.
 - В интерфейсе появилась вкладка "Связь", где можно связаться с разработчиком.
 - В интерфейсе теперь можно настроить все команды под себя. В настройках предоставлено множество опций!
@@ -53,7 +54,11 @@ aivis.help@gmail.ru
 
 - Это не полный список, но это главные изменения в программе
 
+Вы можете скачать уже скомпилированную программу. Для этого скачайте установщик на этой же странице.
+
 Благодарю вас за скачивание!
+
+
 
 EN Aivis V2.0 update is out! EN
 
@@ -61,7 +66,7 @@ It was a long 5 months of developing the second version of the program. Many cha
 
 Plans for V3.0:
 
-- Interface rework
+- Interface redesign
 - Adding multilanguage for the program
 - Implementation of a neural network for user interaction
 - Possible addition of new and improved voices for the assistant
@@ -103,11 +108,14 @@ Here is the complete list of additions:
 - Added random words feature.
 - Added update notification function.
 - Added many new phrases/commands.
+- Added numbers_converter file to convert numerals to numbers
 - In the interface, you can now change the name of the assistant.
 - The "Communication" tab appeared in the interface, where you can contact the developer.
 - In the interface, you can now customize all the commands for yourself. There are many options in the settings!
 - Fixed a lot of minor bugs.
 
 - This is not a complete list, but these are the main changes in the program
+
+You can download the already compiled program. To do this, download the installer on the same page.
 
 Thank you for downloading!
