@@ -18,7 +18,12 @@ aivis.help@mail.ru
 aivis.help@gmail.ru
 
 Я делал всю работу в одиночку, по этому так долго выходило это обновление. Пока что в планах обновления по меньше, но
-возможно что в будующем планы изменяться.
+возможно что в будующем планы изменяться. Также, стоит отметить что я взял готовую базу ассистента от сюда:
+https://github.com/PythonHubStudio/Offline-Voice-Assistant-with-Machine-Learning-on-python/blob/main/app.py
+
+Но я очень сильно модифицировал код и теперь в основном от него остались только названия. 
+
+Вы можете использовать этот проект для себя, но также вы можете использовать его как готовую базу для своего улучшенного ассистента.
 
 Вы можете предложить свои идеи и отправить их на указанные почтовые адреса. Ваше имя будет указано в качестве автора идеи в
 самой программе и в информации о ней.
@@ -80,10 +85,15 @@ aivis.help@mail.ru
 aivis.help@gmail.ru
 
 I did all the work alone, which is why this update took so long to come out. So far, the plans for updating are less, but
-It is possible that plans will change in the future.
+It is possible that plans will change in the future. It is also worth noting that I took the ready-made assistant base from here:
+https://github.com/PythonHubStudio/Offline-Voice-Assistant-with-Machine-Learning-on-python/blob/main/app.py
+
+But I modified the code very much and now basically only the names are left of it.
+
+You can use this project for yourself, but you can also use it as a ready-made base for your improved assistant.
 
 You can offer your ideas and send them to the specified postal addresses. Your name will be listed as the author of the idea in
-the program itself and in information about it.
+the program itself and in information about it. 
 
 Assistant code documentation will be available later, including instructions for adding new features and clarifications to the code.
 
