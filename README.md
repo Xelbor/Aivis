@@ -4,7 +4,7 @@ RU  Обновление Aivis V2.0 вышло!   RU
 
 Планы на V3.0:
 
-Переработка интерфейса
+- Переработка интерфейса
 - Добавление мультиязычности для программы
 - Внедрение нейросети для взаимодействия с пользователем
 - Возможное добавление новых и улучшенных голосов для ассистента
@@ -61,7 +61,7 @@ It was a long 5 months of developing the second version of the program. Many cha
 
 Plans for V3.0:
 
-Interface rework
+- Interface rework
 - Adding multilanguage for the program
 - Implementation of a neural network for user interaction
 - Possible addition of new and improved voices for the assistant
