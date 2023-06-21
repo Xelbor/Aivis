@@ -84,7 +84,9 @@ RU Обновление Aivis V2.0 вышло! RU
 
 Это не полный список, но это главные изменения в программе
 
-Вы можете скачать уже скомпилированную программу. Для этого перейдите во вкладку Releases и скачайте установщик Aivis Setup на этой же странице.
+Вы можете скачать уже скомпилированную программу. Для этого перейдите во вкладку Releases и скачайте установщик Aivis Setup на этой же странице. 
+
+В данный момент я испытываю трудности в безопасности с файлом установщика. Сейчас можно будет скачать только лишь обычный архив с программой. Установщик появиться в версии 2.1
 
 Благодарю вас за скачивание!
 
@@ -175,6 +177,8 @@ Fixed a lot of minor bugs.
 This is not a complete list, but these are the main changes in the program
 
 You can download the already compiled program. To do this, go to the Releases tab and download the Aivis Setup installer on the same page.
+
+I am currently facing a security issue with the installer file. For now, only the standard open source archive will be available for download. Installer appears in version 2.1
 
 Thank you for downloading!
 
