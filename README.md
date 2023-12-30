@@ -2,23 +2,23 @@
 
 Это были долгие 5 месяцев разработки второй версии программы. Было внесено множество изменений. Полный список изменений приведен ниже. Множество функций было переработано, исправлено и добавлено. Следующая версия, Aivis V2.1, будет содержать исправления ошибок и багов, больше случайных ответов, более подробные сообщения об ошибках, а также изменения для разработчиков, такие как добавление большего количества комментариев в коде и улучшение файла interface.py для большего удобства.
 
-Планы на V3.0:
+**Планы на V3.0:**
 
 Переработка интерфейса
 
-Добавление мультиязычности для программы
+- Добавление мультиязычности для программы
 
-Внедрение нейросети для взаимодействия с пользователем
+- Внедрение нейросети для взаимодействия с пользователем
 
-Возможное добавление новых и улучшенных голосов для ассистента
+- Возможное добавление новых и улучшенных голосов для ассистента
 
-Расширение списка команд с полным распознаванием речи
+- Расширение списка команд с полным распознаванием речи
 
-Возможность создания собственных команд или изменения уже существующих команд активации
+- Возможность создания собственных команд или изменения уже существующих команд активации
 
-Добавление различных игр для взаимодействия пользователя с ассистентом
+- Добавление различных игр для взаимодействия пользователя с ассистентом
 
-Добавление других функций, которые я посчитаю важными для обновления в процессе разработки
+- Добавление других функций, которые я посчитаю важными для обновления в процессе разработки
 
 Если вы обнаружите ошибки в программе или у вас будут какие-либо предложения, пожалуйста, напишите на почту: aivis.help@mail.ru aivis.help@gmail.ru
 
@@ -90,27 +90,27 @@
 
 Благодарю вас за скачивание!
 
-EN Aivis V2.0 update is out! EN
+**EN Aivis V2.0 update is out! EN**
 
 It was a long 5 months of developing the second version of the program. Many changes have been made. The full list of changes is below. Many features have been redesigned, fixed and added. The next version, Aivis V2.1, will contain bug and bug fixes, more random responses, more detailed error messages, as well as changes for developers, such as adding more comments in the code and improving the interface.py file for better usability.
 
-Plans for V3.0:
+**Plans for V3.0:**
 
-Interface redesign
+- Interface redesign
 
-Adding multilanguage for the program
+- Adding multilanguage for the program
 
-Implementation of a neural network for user interaction
+- Implementation of a neural network for user interaction
 
-Possible addition of new and improved voices for the assistant
+- Possible addition of new and improved voices for the assistant
 
-Command list expansion with full speech recognition
+- Command list expansion with full speech recognition
 
-Ability to create your own commands or modify existing activation commands
+- Ability to create your own commands or modify existing activation commands
 
-Adding various games for user interaction with the assistant
+- Adding various games for user interaction with the assistant
 
-Adding other features that I consider important to update during development
+- Adding other features that I consider important to update during development
 
 If you find errors in the program or you have any suggestions, please write to the mail: aivis.help@mail.ru aivis.help@gmail.ru
 
@@ -182,4 +182,4 @@ I am currently facing a security issue with the installer file. For now, only th
 
 Thank you for downloading!
 
-Full Changelog: https://github.com/Xelbor/Aivis/commits/Aivis
+**Full Changelog: https://github.com/Xelbor/Aivis/commits/Aivis**
