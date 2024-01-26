@@ -34,53 +34,53 @@
 
 Вот полный список добавлений:
 
-Функции commands, translate_ru и translate_en были переписаны для использования распознавания речи с помощью Vosk.
+- Функции commands, translate_ru и translate_en были переписаны для использования распознавания речи с помощью Vosk.
 
-Функция search_internet была удалена, так как стала неактуальной.
+- Функция search_internet была удалена, так как стала неактуальной.
 
-Функция recognize была полностью переписана и изменена. Была добавлена возможность полного распознавания команды, а также если просто сказать "Айви" или "Айвис" (или другое имя, которое вы дали ассистенту), он будет спрашивать: "Что?" и подобные фразы.
+- Функция recognize была полностью переписана и изменена. Была добавлена возможность полного распознавания команды, а также если просто сказать "Айви" или "Айвис" (или другое имя, которое вы дали ассистенту), он будет спрашивать: "Что?" и подобные фразы.
 
-Добавлен интерфейс.
+- Добавлен интерфейс.
 
-Некоторые функции были удалены из app.py.
+- Некоторые функции были удалены из app.py.
 
-Добавлена функция погоды.
+- Добавлена функция погоды.
 
-Таймер был значительно переработан. Теперь можно сказать, на сколько установить таймер.
+- Таймер был значительно переработан. Теперь можно сказать, на сколько установить таймер.
 
-Добавлено полное распознавание команды для поиска в Google.
+- Добавлено полное распознавание команды для поиска в Google.
 
-Добавлена функция чтение текста по запросу в Google.
+- Добавлена функция чтение текста по запросу в Google.
 
-Добавлено полное распознавание команды для поиска на YouTube.
+- Добавлено полное распознавание команды для поиска на YouTube.
 
-В функции поиска на YouTube добавлена возможность открытия первого видео. Эту функцию, как и другие подобные можно отключить в интерфейсе.
+- В функции поиска на YouTube добавлена возможность открытия первого видео. Эту функцию, как и другие подобные можно отключить в интерфейсе.
 
-Функция сна была переработана и связана с интерфейсом.
+- Функция сна была переработана и связана с интерфейсом.
 
-Функция запуска программы была переработана.
+- Функция запуска программы была переработана.
 
-Добавлена функция напоминания.
+- Добавлена функция напоминания.
 
-Добавлена функция поиска в Википедии.
+- Добавлена функция поиска в Википедии.
 
-Добавлена функция вычисления цифр в заданном диапазоне.
+- Добавлена функция вычисления цифр в заданном диапазоне.
 
-Добавлена функция случайных слов.
+- Добавлена функция случайных слов.
 
-Добавлена функция оповещения об обновлениях.
+- Добавлена функция оповещения об обновлениях.
 
-Добавлено множество новых фраз/команд.
+- Добавлено множество новых фраз/команд.
 
-Добавлен файл numbers_converter для преобразования числительных в числа
+- Добавлен файл numbers_converter для преобразования числительных в числа
 
-В интерфейсе теперь можно изменить имя ассистента.
+- В интерфейсе теперь можно изменить имя ассистента.
 
-В интерфейсе появилась вкладка "Связь", где можно связаться с разработчиком.
+- В интерфейсе появилась вкладка "Связь", где можно связаться с разработчиком.
 
-В интерфейсе теперь можно настроить все команды под себя. В настройках предоставлено множество опций!
+- В интерфейсе теперь можно настроить все команды под себя. В настройках предоставлено множество опций!
 
-Исправлено большое количество мелких ошибок.
+- Исправлено большое количество мелких ошибок.
 
 Это не полный список, но это главные изменения в программе
 
@@ -126,53 +126,53 @@ Assistant code documentation will be available later, including instructions for
 
 Here is the complete list of additions:
 
-The commands, translate_ru and translate_en functions have been rewritten to use voice recognition with Vosk.
+- The commands, translate_ru and translate_en functions have been rewritten to use voice recognition with Vosk.
 
-The search_internet function has been removed as it has become irrelevant.
+- The search_internet function has been removed as it has become irrelevant.
 
-The recognize function has been completely rewritten and changed. The ability to fully recognize the command has been added, and if you just say "Ivy" or "Ivis" (or whatever name you gave the assistant), he will ask: "What?" and similar phrases.
+- The recognize function has been completely rewritten and changed. The ability to fully recognize the command has been added, and if you just say "Ivy" or "Ivis" (or whatever name you gave the assistant), he will ask: "What?" and similar - phrases.
 
-Added interface.
+- Added interface.
 
-Some functions have been removed from app.py.
+- Some functions have been removed from app.py.
 
-Added weather function.
+- Added weather function.
 
-The timer has been significantly redesigned. Now you can tell how long to set the timer.
+- The timer has been significantly redesigned. Now you can tell how long to set the timer.
 
-Added full command recognition for Google search.
+- Added full command recognition for Google search.
 
-Added the function of reading text on demand in Google.
+- Added the function of reading text on demand in Google.
 
-Added full command recognition for YouTube search.
+- Added full command recognition for YouTube search.
 
-Added the ability to open the first video in the YouTube search function. This function, like others like it, can be disabled in the interface.
+- Added the ability to open the first video in the YouTube search function. This function, like others like it, can be disabled in the interface.
 
-The sleep function has been redesigned and linked to the interface.
+- The sleep function has been redesigned and linked to the interface.
 
-The program launch function has been redesigned.
+- The program launch function has been redesigned.
 
-Added reminder function.
+- Added reminder function.
 
-Added Wikipedia search feature.
+- Added Wikipedia search feature.
 
-Added a function to calculate numbers in a given range.
+- Added a function to calculate numbers in a given range.
 
-Added random words feature.
+- Added random words feature.
 
-Added update notification function.
+- Added update notification function.
 
-Added many new phrases/commands.
+- Added many new phrases/commands.
 
-Added numbers_converter file to convert numerals to numbers
+- Added numbers_converter file to convert numerals to numbers
 
-In the interface, you can now change the name of the assistant.
+- In the interface, you can now change the name of the assistant.
 
-The "Communication" tab appeared in the interface, where you can contact the developer.
+- The "Communication" tab appeared in the interface, where you can contact the developer.
 
-In the interface, you can now customize all the commands for yourself. There are many options in the settings!
+- In the interface, you can now customize all the commands for yourself. There are many options in the settings!
 
-Fixed a lot of minor bugs.
+- Fixed a lot of minor bugs.
 
 This is not a complete list, but these are the main changes in the program
 
